@@ -4,12 +4,12 @@ import me from '../../images/me.png'
 const Landing = () => {
   return (
     <div className='w-10/12 h-auto mx-auto mt-8 flex border-blue-900 rounded-xl bg-white'>
-        <div className="text w-2/3  p-5">
+        <div className="text w-2/3  p-6">
             <div className="heading p-3">
                 <p className='text-4xl text-cyan-950 font-bold'>Hello! I'm Anand, a part-time Front-end Developer and full-time Student ;)</p>
             </div>
 
-            <div className="content p-3 text-lg font-medium text-black text-wrap">
+            <div className="content p-3 text-lg font-normal text-black text-wrap">
                 <p className='p-2'>I love making User Friendly and attractive Websites.</p>
                 <p className='p-2'>I am a student at the Indian Institute of Technology, Hyderabad (fondly known as IITH) majoring in Physics ⚛.I also worked on various freelancing projects for startups and was the Web Development team Coordinator for the Finance and Consulting Club💲 (FCC) at IITH for the year 2023-24.
                 </p>
