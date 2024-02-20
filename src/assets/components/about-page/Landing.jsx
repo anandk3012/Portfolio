@@ -1,5 +1,5 @@
 import React from 'react'
-import me from '../../images/me.png'
+import me2 from '../../images/me2.png'
 
 const Landing = () => {
   return (
@@ -13,8 +13,8 @@ const Landing = () => {
                 <p className='p-2'>I love making User Friendly and attractive Websites.</p>
                 <p className='p-2'>I am a student at the Indian Institute of Technology, Hyderabad (fondly known as IITH) majoring in Physics ⚛.I also worked on various freelancing projects for startups and was the Web Development team Coordinator for the Finance and Consulting Club💲 (FCC) at IITH for the year 2023-24.
                 </p>
-                <p className='p-2'>Through these experiences I learned a lot about team-work, Project Management, Friendship and developed a working style that leans towards flexibility, clarity and collaboration</p>
-                <p>I'm currently looking for an Software Developer Internship. If willing to give me an opportunity, do check out my Github and Linkedin pages below ⬇</p>
+                <p className='p-2'>Through these experiences I learned a lot about Team-work, Project Management, Networking and developed a working style that leans towards flexibility, clarity and collaboration</p>
+                <p>I'm currently looking for an Software Developer Internship. If you're willing to give me an opportunity, do check out my Github and Linkedin pages below ⬇</p>
             </div>
 
             <div className="buttons w-full mt-4 p-3 flex">
@@ -25,7 +25,7 @@ const Landing = () => {
 
         <div className="image w-1/3 p-5 ">
             <div className='w-full h-auto p-auto text-black border-blue-800 rounded-xl'>
-                <img className=' rounded-2xl' src={me} width="100%" height="100%" alt="Anand" />
+                <img className=' rounded-2xl' src={me2} width="100%" height="100%" alt="Anand" />
             </div>
         </div>
     </div>

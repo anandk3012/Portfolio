@@ -13,7 +13,7 @@ const Header = () => {
         <ul className='w-2/3 flex justify-evenly align-middle text-xl'>
           <Link to="/" className='list-none'>About</Link>
           <Link to="/projects" className='list-none'>Projects</Link>
-          <Link to="/contact" className='list-none'>Contact</Link>
+          <Link to="/" className='list-none'>Contact</Link>
         </ul>
       </div>
     </div>
