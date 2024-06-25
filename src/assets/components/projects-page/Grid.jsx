@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './Card'
 import deskpe from '../../images/deskpe.jpg'
 import fcc from  '../../images/fcc.jpg'
+import tic from  '../../images/image.png'
 
 const Grid = () => {
     return (
@@ -13,10 +14,10 @@ const Grid = () => {
                 <Card img={fcc} title="FCC IITH" text="A static website that I made for FCC IITH using HTML,CSS and JS primarily for web layout, Bootstrap Framework for styling and GSAP scroll animations" />
             </a>
             <a href="https://tickytack.netlify.app/" className='w-1/3 h-auto' target='_blank'>
-                <Card img={fcc} title="Tic tac toe" text="Tic tac toe game using Reactjs, TailwindCSS" />
+                <Card img={tic} title="Tic tac toe" text="Tic tac toe game using Reactjs, TailwindCSS" />
             </a>
             <a href="https://github.com/anandk3012/Spin-lattice-metropolis/" className='w-1/3 h-auto' target='_blank'>
-                <Card img={fcc} title="Metropolis algo" text="Implemented the Metropolis algorithm to calculate the magnetization a spin-lattice of NxN atoms using Python and MatplotLib" />
+                <Card img={tic} title="Metropolis algo" text="Implemented the Metropolis algorithm to calculate the magnetization a spin-lattice of NxN atoms using Python and MatplotLib" />
             </a>
         </div>)
 }
